@@ -1,0 +1,38 @@
+.projects {
+  background: #fffafa;
+  border: 2px solid #000000;
+  box-shadow: 8px 6px 0px #a0c1ff;
+  border-radius: 10px;
+  padding: 25px 35px;
+  height: 100%;
+}
+.projects__title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  text-decoration-line: underline;
+  text-transform: lowercase;
+  color: #000000;
+}
+.projects__content {
+  /* padding: 10px 0; */
+  height: 100%;
+}
+.projects__list {
+  list-style: none;
+  height: 90%;
+  padding: 20px 20px 20px 0;
+  overflow-y: auto;
+}
+
+.projects__list::-webkit-scrollbar {
+  width: 5px;
+  background: rgb(160, 193, 255, 0.3);
+  border-radius: 10px;
+}
+.projects__list::-webkit-scrollbar-thumb {
+  width: 5px;
+  background: rgb(160, 193, 255, 1);
+  border-radius: 10px;
+}

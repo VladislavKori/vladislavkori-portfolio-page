@@ -1,0 +1,28 @@
+.user-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user-title__photo {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: linear-gradient(248.12deg, #e1d0ee 14.92%, #f5bebe 87.84%);
+  position: relative;
+  padding: 5px;
+  z-index: 2;
+}
+.user-title__photo img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+.user-title__name {
+  font-family: var(--font-family);
+  color: #2c2c2c;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  margin-top: 15px;
+}

@@ -1,0 +1,60 @@
+.project-btn {
+  background: #fffb8a;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  max-width: 200px;
+  width: 100%;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+}
+.project-btn__text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.project-btn__img {
+    width: 16px;
+    height: 16px;
+}
+.project-btn__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    position: relative;
+    z-index: 4;
+}
+
+.project-btn:before {
+  content: "";
+  position: absolute;
+  background: #E4CFE9;
+  left: 0;
+  width: 100%;
+  height: 0;
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.project-btn:last-child:before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+
+.project-btn:first-child:before {
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+  background: #F4C1C3;
+}
+
+.project-btn:hover::before {
+  height: 180%;
+}

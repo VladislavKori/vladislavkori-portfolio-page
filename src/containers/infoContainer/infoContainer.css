@@ -1,0 +1,11 @@
+.info {
+  background: #e5f0f1;
+  padding: 50px 40px;
+  border: 2px solid #000000;
+  box-shadow: -9px 7px 0px rgba(255, 246, 19, 0.5);
+  border-radius: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
