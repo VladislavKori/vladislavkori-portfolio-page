@@ -17,8 +17,5 @@ export const links = [
 
 export const projects = [
     {preview: preview1, link: 'https://vladislavkori.github.io/gpt3_course/', sourseLink: 'https://github.com/VladislavKori/gpt3_course/tree/gh-pages' },
-    {preview: preview1, link: 'https://vladislavkori.github.io/gpt3_course/', sourseLink: 'https://github.com/VladislavKori/gpt3_course/tree/gh-pages' },
-    {preview: preview1, link: 'https://vladislavkori.github.io/gpt3_course/', sourseLink: 'https://github.com/VladislavKori/gpt3_course/tree/gh-pages' },
-    {preview: preview1, link: 'https://vladislavkori.github.io/gpt3_course/', sourseLink: 'https://github.com/VladislavKori/gpt3_course/tree/gh-pages' },
-    {preview: preview1, link: 'https://vladislavkori.github.io/gpt3_course/', sourseLink: 'https://github.com/VladislavKori/gpt3_course/tree/gh-pages' },
+    
 ]

@@ -6,13 +6,13 @@ import githubIcon from '../../assets/icons/Github.svg'
 // components
 import {ProjectButton} from '../imports'
 
+// 
+
 function ProjectItem({preview, link, sourseLink }) {
   return (
     <li className='project__item'>
       
-      <a className='project__item-preview' href={link}>
-        <img src={preview} alt='preview' />
-      </a>
+      <a className='project__item-preview' style={{"background": `url(${preview})`, "backgroundPosition": "center center", "backgroundSize": "cover"}} href={link} /> 
 
       <div className='project__item-info'>
         <p><span>Name: </span>GPT3</p>

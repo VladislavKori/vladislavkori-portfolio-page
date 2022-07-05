@@ -23,7 +23,7 @@
 
 @keyframes leftExit  {
     0% {
-        transform: translateX(-25%);
+        transform: translateX(-5%);
     }
     100%{
         transform: translateX(0);
@@ -32,7 +32,7 @@
 
 @keyframes rightExit  {
     0% {
-        transform: translateX(25%);
+        transform: translateX(5%);
     }
     100%{
         transform: translateX(0);
@@ -53,6 +53,9 @@
         align-items: center;
         justify-content: center;
     }
+    .info-container{
+        width: 364px;
+    }
     .projects-container,
     .info-container {
         flex: 1;
@@ -60,9 +63,15 @@
     } 
     .projects-container {
         margin-top: 40px;
+        /* width: 100%; */
     }
     html, body, #root {
         height:max-content;
     }
 }
 
+@media screen and (max-width: 680px) {
+    .container {
+        width: 300px;
+    }
+}

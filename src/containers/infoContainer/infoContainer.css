@@ -8,4 +8,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-y: auto;
+}
+
+.info::-webkit-scrollbar {
+  background: none;
+}
+.info::-webkit-scrollbar-thumb {
+  background: none;
 }

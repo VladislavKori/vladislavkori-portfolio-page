@@ -13,8 +13,9 @@ function ProjectsContainer() {
       <h1 className="projects__title">my projects</h1>
       <div className="projects__content">
         <ul className="projects__list">
-          {projects.map((project) => (
+          {projects.map((project, index) => (
             <ProjectItem
+              key={index}
               preview={project.preview}
               link={project.link}
               sourseLink={project.sourseLink}

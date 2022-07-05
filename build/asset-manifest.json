@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/vladislavkori-portfolio-page/static/css/main.19baf8d5.css",
+    "main.js": "/vladislavkori-portfolio-page/static/js/main.6455c10e.js",
+    "static/media/avatar.png": "/vladislavkori-portfolio-page/static/media/avatar.30d4b11c508877e58977.png",
+    "static/media/preview1.png": "/vladislavkori-portfolio-page/static/media/preview1.37634d0aaf65f7c2089a.png",
+    "static/media/Incendio.ttf": "/vladislavkori-portfolio-page/static/media/Incendio.9885f74410ec00ab072c.ttf",
+    "static/media/Github.svg": "/vladislavkori-portfolio-page/static/media/Github.38e3e58fe5ab9176d33cf20ac7b61f1f.svg",
+    "static/media/Reddit.svg": "/vladislavkori-portfolio-page/static/media/Reddit.f2ed89ed4a93684b4cc1a33883e89e9f.svg",
+    "static/media/Telegram.svg": "/vladislavkori-portfolio-page/static/media/Telegram.d30a488ef8843ece60697cf90f4b93c9.svg",
+    "static/media/YouTube.svg": "/vladislavkori-portfolio-page/static/media/YouTube.3e0d2ed80f1d9c35a26331400024d25e.svg",
+    "index.html": "/vladislavkori-portfolio-page/index.html",
+    "static/media/Twitch.svg": "/vladislavkori-portfolio-page/static/media/Twitch.12a020f1224aabd8c9b8cd5cb0681df3.svg",
+    "main.19baf8d5.css.map": "/vladislavkori-portfolio-page/static/css/main.19baf8d5.css.map",
+    "main.6455c10e.js.map": "/vladislavkori-portfolio-page/static/js/main.6455c10e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19baf8d5.css",
+    "static/js/main.6455c10e.js"
+  ]
+}
